@@ -1,13 +1,8 @@
-# Version of the configuration file
 version: 5.1.0
-# Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
-# Path or URL to the website's logo
-logo: /images/favicon.png
-# Page metadata configurations
+logo: /images/logo.png
 head:
-    # URL or path to the website's icon
-    favicon: /images/favicon.png
+    favicon: /images/favicon.ico
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -46,9 +41,9 @@ navbar:
             icon: fab fa-github
             url: https://github.com/gaoflyfly
 # Page footer configurations
-# footer:
-#     # Copyright text
-#     copyright: © 2026
+footer:
+    # Copyright text
+    copyright: © 2026 gaoflyfly | Stay Hungry, Stay Foolish
 # Article related configurations
 article:
     # Code highlight settings

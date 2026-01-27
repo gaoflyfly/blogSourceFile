@@ -1,11 +1,11 @@
-title: Hexo
-subtitle: ''
-description: ''
+title: 高政的博客
+subtitle: "Gao Zheng's Blog"
+description: 'Stay Hungry, Stay Foolish.'
 keywords: null
-author: John Doe
+author: gaoflyfly
 language: zh-CN
 timezone: Asia/Shanghai
-url: http://example.com
+url: http://gaoflyfly.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -19,7 +19,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: ':lang'
 skip_render: null
-new_post_name: ':title.md'
+new_post_name: :year-:month-:day-:title.md
 default_layout: post
 titlecase: false
 external_link:
