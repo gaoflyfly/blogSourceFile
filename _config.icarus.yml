@@ -80,12 +80,13 @@ plugins:
     pjax: true
     # Show a progress bar at top of the page on page loading
     progressbar: true
+    katex: true
 
-# widgets:
-#     -
-#         type: toc
-#         position: center
-#         index: true
+widgets:
+    -
+        type: toc
+        position: left
+        index: true
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
