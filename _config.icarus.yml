@@ -80,7 +80,6 @@ plugins:
     pjax: true
     # Show a progress bar at top of the page on page loading
     progressbar: true
-    katex: true
 
 widgets:
     -
